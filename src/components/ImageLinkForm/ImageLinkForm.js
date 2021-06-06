@@ -13,6 +13,7 @@ const ImageLinkForm = ({onInputChange, onButtonSubmit}) => {
                     <div className='form center pa4 br3 shadow-5'>
                         <input type='text' 
                             className='f4 pa2 w-70 center' 
+                            placeholder='your_image_link(.jpg/.png)'
                             onChange={onInputChange}
                         />
                         <button 
